@@ -13,7 +13,7 @@ library(mavenR)
 
 # Set directory
 data.location <- getwd() #should be rstudio project directory
-data.file <- "005-FH-25-30C-2022-03-21_trans_isol_R.csv"
+data.file <- "006-FH-20-05C-2022-03-28_trans_isol_R.csv"
 data.label <- substr(data.file, 1, 13)
 maven.run <- substr(data.file, 1, 3)
 output.dir <- paste("./output", "-", maven.run, sep="")
